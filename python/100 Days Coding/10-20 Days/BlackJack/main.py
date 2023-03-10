@@ -1,5 +1,4 @@
 import random
-
 import logo
 import replit
 
@@ -39,7 +38,6 @@ def game():
     computer_score = 0
     end = False
     print(logo.logo)
-
     user_cards.append(random_cards())
     user_cards.append(random_cards())
     computer_cards.append(random_cards())
