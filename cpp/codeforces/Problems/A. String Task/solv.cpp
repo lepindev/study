@@ -3,7 +3,7 @@
     description: A
 
     author:    lepindev
-    created:   07.03.2023 20:44:10
+    created:   14.03.2023 10:59:54
 
 
 ***/
@@ -13,6 +13,9 @@
 using namespace std;
 
 int main() {
+    ios::sync_with_stdio(false);
+    cin.tie(0);
 
+	cout << "Hello\n";
 	return 0;
 }

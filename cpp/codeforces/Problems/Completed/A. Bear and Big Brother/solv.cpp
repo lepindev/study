@@ -20,9 +20,9 @@ int main() {
 		cout << 1;
 		return 0;
 	}
-	while(a < b){
-		b += b * 2;
-		a += a * 3;
+	while(a <= b){
+		b = b * 2;
+		a = a * 3;
 		t++;
 	}
 	cout << t;
